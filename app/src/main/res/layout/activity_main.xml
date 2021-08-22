@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".MainActivity">
+
+<TextView
+    android:id="@+id/tvTitle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="80dp"
+    android:layout_gravity="top|center"
+    style="@style/Title"/>
+
+<ImageView
+    android:id="@+id/ivIcon"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    style="@style/Icon"/>
+
+<Button
+    android:onClick="GotoNewActivity"
+    android:id="@+id/start"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="start|bottom"
+    android:text="@string/start"
+    style="@style/Button" />
+
+<Button
+    android:onClick="GotoListActivity"
+    android:id="@+id/change"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="end|bottom"
+    android:text="@string/list"
+    style="@style/Button" />
+
+</FrameLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">FitnessTracker</string>
+    <string name="start">Tracking START</string>
+    <string name="stop">STOP</string>
+    <string name="list">Einträge ANZEIGEN</string>
+    <string name="change">Eintrag ÄNDERN</string>
+
+    <string name="logged_in">Logged in</string>
+    <string name="title">Title</string>
+    <string name="message">Message</string>
+    <string name="save">Save</string>
+    <string name="note_saved">Note saved</string>
+    <string name="delete">Delete</string>
+    <string name="delete_message">Do you really want to delete this note?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="add">Add</string>
+</resources>
